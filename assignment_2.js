@@ -1,23 +1,6 @@
 
 
 
-
-
-
-
-//3 Filter (not done)
-// const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
-
-// function filterWords(words) {
-//   for (let i = 0; i < words.length; i++) {
-//     if ( words[i] > 6) {
-//     words.push(words[i]);
-//     }
-//   }
-// }
-// console.log(filterWords(words));
-
-
 //4 Some(Any)- test whether any element in an array pass the test
 // const array = [12, 2, 34, 54, 50];
 // function isOdd(array) {  
