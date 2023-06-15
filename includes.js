@@ -1,4 +1,4 @@
-//includes() check whether an array contains a certain item
+//7.includes() check whether an array contains a certain item
 const pets = ['dog', 'cat', 'rabbit', 'hamster'];
 
 function customIncludes(array, item) {
