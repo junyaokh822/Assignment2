@@ -1,27 +1,8 @@
-//1 foreach() -iterates over the array and invokes a callback
-const nums = [1,2,3,4];
-let squaresrt=(element)=>console.log(element*element);
-function displayAllItems(nums,cb) {
-  for (let i = 0; i < nums.length; i++) {
-       cb(nums[i],i,nums);
-  };
-}
-displayAllItems(nums,squaresrt);
-
-// arr1.foreach(element=>console.log (element));
 
 
-//2 Map - create a new array with the elements of the old array ad execute a function on each element
-// let oldArray = [1, 2, 3, 4, 5];
-// let newArray = oldArray.slice();
-// function multiplyByTen(newArray) {
-//   for ( let i = 0; i < newArray.length; i++) {
-//     newArray[i] = newArray[i] * 10;
-//   }
-//   console.log(newArray);
-  
-// }
-// console.log(multiplyByTen(newArray));
+
+
+
 
 
 //3 Filter (not done)
