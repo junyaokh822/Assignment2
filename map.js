@@ -4,7 +4,7 @@ const numbers = [1, 2, 3, 4, 5];
 function customMap(array, callback) {
     const results = [];
     for (let i = 0; i < array.length; i++) {
-      const result = callback(array[i]);
+      const result = callback(array[i],i,array);
       results.push(result);
     } 
     return results;

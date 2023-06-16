@@ -6,7 +6,8 @@ const person = {
     age: 30,
     city: 'New York'
   };
-
+  const keys = customKeys(person);
+  
   function customKeys(obj) {
     const keys = [];
     for (let key in obj) {
@@ -17,5 +18,5 @@ const person = {
     return keys;
   }
   
-  const keys = customKeys(person);
+  
   console.log(keys); // Output: ['name', 'age', 'city']
