@@ -5,9 +5,9 @@ const obj = {
     age: 20,
     city: 'New Jersey'
   };
-  const values = objectValues(obj);
+  const values = grabValues(obj);
 
-  function objectValues(obj) {
+  function grabValues(obj) {
     if (typeof obj !== 'object' || obj === null) {
       throw new TypeError('Object.values called on non-object');
     }

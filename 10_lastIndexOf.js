@@ -3,7 +3,7 @@
 //The array is searched backwards, starting at fromIndex.
 const numbers = [1, 2, 3, 4, 3, 2, 1];
 
-function customLastIndexOf(array, num) {
+function myUnshift(array, num) {
     for (let i = array.length - 1; i >= 0; i--) {
       if (array[i] === num) {
         return i;
@@ -12,8 +12,8 @@ function customLastIndexOf(array, num) {
     return -1;
   }
 
-const lastIndex = customLastIndexOf(numbers, 3);
+const lastIndex = myUnshift(numbers, 3);
 console.log(lastIndex); // Output: 4
 
-const nonExistentIndex = customLastIndexOf(numbers, 5);
+const nonExistentIndex = myUnshift(numbers, 5);
 console.log(nonExistentIndex); // Output: -1

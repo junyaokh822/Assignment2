@@ -2,7 +2,7 @@
 // can be found in the array, or -1 if it is not present.
 const pets = ['dog', 'cat', 'rabbit', 'hamster'];
 
-function customIndexOf(array, item) {
+function myIndexOf(array, item) {
     for (let i = 0; i < array.length; i++) {
       if (array[i] === item) {
         return i;
@@ -11,11 +11,11 @@ function customIndexOf(array, item) {
     return -1;
 }
 
-const hamsterIndex = customIndexOf(pets, 'hamster');
+const hamsterIndex = myIndexOf(pets, 'hamster');
 console.log(hamsterIndex); 
 
-const catIndex = customIndexOf(pets, 'cat');
+const catIndex = myIndexOf(pets, 'cat');
 console.log(catIndex); 
 
-const eagleIndex = customIndexOf(pets, 'eagle');
+const eagleIndex = myIndexOf(pets, 'eagle');
 console.log(eagleIndex); 

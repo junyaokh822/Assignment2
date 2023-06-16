@@ -6,9 +6,9 @@ const person = {
     age: 30,
     city: 'New York'
   };
-  const keys = customKeys(person);
+  const keys = grabKeys(person);
   
-  function customKeys(obj) {
+  function grabKeys(obj) {
     const keys = [];
     for (let key in obj) {
       if (obj.hasOwnProperty(key)) {
